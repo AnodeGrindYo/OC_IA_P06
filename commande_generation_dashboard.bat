@@ -1,0 +1,9 @@
+@ECHO OFF
+@REM ECHO installation de l'environnement python...
+@REM conda env create -f P6_adrien_godoy.yml
+@REM ECHO environnement installé !
+@REM ECHO activation...
+@REM conda activate OC_P06
+@REM ECHO environnement activé
+ECHO génération du dashboard avec voila...
+voila P6_04_dashboard.ipynb --theme=dark
